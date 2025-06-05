@@ -1,0 +1,31 @@
+hello
+
+
+1. check git version
+
+git --version
+
+2. git congifuration
+
+git config --global user.name "Bipul20000"
+git config --global user.email "bipul.dtu@gmail.com"
+
+3. repository initialize 
+
+echo "# js_learn" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Bipul20000/js_learn.git
+git push -u origin main
+
+
+
+4. push to exisiting
+
+git remote add origin https://github.com/Bipul20000/js_learn.git
+git branch -M main
+git push -u origin main
+
+
