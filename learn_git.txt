@@ -28,4 +28,6 @@ git remote add origin https://github.com/Bipul20000/js_learn.git
 git branch -M main
 git push -u origin main
 
+5. git status
+
 
